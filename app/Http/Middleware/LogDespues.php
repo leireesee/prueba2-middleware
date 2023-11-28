@@ -8,7 +8,7 @@ use Illuminate\Routing\Controllers\Middleware;
 use Illuminate\Support\Facades\Log;
 use Symfony\Component\HttpFoundation\Response;
 
-class LogDespues extends Middleware
+class LogDespues
 {
     /**
      * Handle an incoming request.

@@ -8,7 +8,7 @@ use Illuminate\Routing\Controllers\Middleware;
 use Illuminate\Support\Facades\Log;
 use Symfony\Component\HttpFoundation\Response;
 
-class LogAntes extends Middleware
+class LogAntes 
 {
     /**
      * Handle an incoming request.
